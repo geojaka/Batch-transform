@@ -12,4 +12,12 @@ Secondly, use sys34UTM.ps1 to transform the projection.
   - set the PROJ_LIB environment variable to match your path
   - set your own input and output directory
 
-This scripts are based on transformations from [this repository](https://github.com/NordicGeodesy/NordicTransformations/tree/master)
+Third step is to convert the map from UTM32N (EPSG:25832) to EPSG:3857. Use mapconvert.ps1
+  - set your own input and output directory
+  - make sure the crs codes are correctly written
+
+Finally, create maptiles with maptiles.ps1.
+  - set your own input and output directory
+  - settings od dwg2maptiles can be modified normally
+
+Transformations are based on [this repository](https://github.com/NordicGeodesy/NordicTransformations/tree/master)
