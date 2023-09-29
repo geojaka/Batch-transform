@@ -1,5 +1,6 @@
 # Set GDAL_DATA environment variable
 $env:GDAL_DATA = "C:\Program Files\QGIS 3.22.11\apps\gdal\share\gdal"
+$env:PROJ_LIB = "C:\Program Files\QGIS 3.22.11\share\proj;C:\Program Files\QGIS 3.22.11\NordicTransformations-master\resources"
 
 # Specify input and output directories
 $inputDir = "C:\Users\JakaCosic\Documents\data\koge\interim\Vejbelysning-redo\Vejbelysning-dxf_old"
