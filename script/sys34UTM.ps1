@@ -3,8 +3,8 @@ $env:GDAL_DATA = "C:\Program Files\QGIS 3.22.11\apps\gdal\share\gdal"
 $env:PROJ_LIB = "C:\Program Files\QGIS 3.22.11\share\proj;C:\Program Files\QGIS 3.22.11\NordicTransformations-master\resources"
 
 # Specify input and output directories
-$inputDir = "C:\Users\JakaCosic\Documents\data\koge\interim\Vejbelysning-redo\Vejbelysning-dxf_old"
-$outputDir = "C:\Users\JakaCosic\Documents\data\koge\interim\Vejbelysning-redo\Vejbelysning-dxf_UTM"
+$inputDir = "input_directory_path"
+$outputDir = "output_directory_path"
 
 # Get a list of all DXF files in the input directory
 $dxfFiles = Get-ChildItem -Path $inputDir -Filter *.dxf

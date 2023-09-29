@@ -5,9 +5,11 @@ Simple scripts that takes in take input and output directories and iterate throu
 
 First use dwg2dxf.ps1 to transform the dwg to dxf format which is needed for GDAL.  
   - make sure that the QCAD dwg2dwg path is correct for your installation
+  - set your own input and output directory
 
 Secondly, use sys34UTM.ps1 to transform the projection.  
   - make sure that GDAL path is correct for your installation
-  - set the PROJ_LIB environment variable to match your path  
+  - set the PROJ_LIB environment variable to match your path
+  - set your own input and output directory
 
 This scripts are based on transformations from [this repository](https://github.com/NordicGeodesy/NordicTransformations/tree/master)

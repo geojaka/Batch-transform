@@ -1,6 +1,6 @@
 # Specify input and output directories
-$inputDir = "C:\Users\JakaCosic\Documents\data\koge\raw\CAD Stuff\Vejbelysning"
-$outputDir = "C:\Users\JakaCosic\Documents\data\koge\interim\Vejbelysning-redo\Vejbelysning-dxf_old"
+$inputDir = "input_directory_path"
+$outputDir = "output_directory_path"
 
 # Get a list of all DWG files in the input directory
 $dwgFiles = Get-ChildItem -Path $inputDir -Filter *.dwg
